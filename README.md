@@ -13,32 +13,32 @@ Mac OS, Git
 ```
 docker pull prom/node-exporter
 ```
-###运行
+### 运行
 ```
 docker run -d -p 9100:9100 quay.io/prometheus/node-exporter
 ```
 
-###安装redis_exporter
+### 安装redis_exporter
 下载镜像
 ```
 docker pull oliver006/redis_exporter
 ```
-###运行
+### 运行
 ```
 docker run -d --name redis_exporter -p 9121:9121 oliver006/redis_exporter
 ```
 
-###安装grafana
+### 安装grafana
 下载镜像
 ```
 docker pull grafana/grafana
 ```
-###运行
+### 运行
 ```
 docker run -d --name=grafana -p 3000:3000 grafana/grafana
 ```
 
-###安装prometheus
+### 安装prometheus
 
 有个prometheus.yml需要自己创建位置是/usr/local/src/file/ 这个文件放哪里都可以 到时候指定下就行了
 
@@ -47,7 +47,7 @@ docker run -d --name=grafana -p 3000:3000 grafana/grafana
 docker pull prom/prometheus
 ```
 
-###运行
+### 运行
 ```
 docker run -d -p 9090:9090 -v /Users/kevincai/Desktop/Development/prometheus/prometheus.yml:/Users/kevincai/Desktop/Development/prometheus/prometheus.yml quay.io/prometheus/prometheus --config.file=/Users/kevincai/Desktop/Development/prometheus/prometheus.yml
 ```
