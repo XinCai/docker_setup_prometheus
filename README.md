@@ -71,6 +71,12 @@ http://localhost:9090/targets
 
 #### Reference
 https://www.jianshu.com/p/339db34e4afe 
+
 https://zhuanlan.zhihu.com/p/101184971
-https://www.jianshu.com/p/1cb66d48920b 
+
+https://www.jianshu.com/p/1cb66d48920b
+ 
 https://www.cnblogs.com/xiao987334176/p/9930517.html 
+
+### GitBook 
+https://songjiayang.gitbooks.io/prometheus/content/
